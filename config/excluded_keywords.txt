@@ -1,0 +1,133 @@
+# ----------------------------------------
+# Development
+# ----------------------------------------
+senior
+lead
+principal
+head
+director
+executive
+vp
+vice president
+chief
+abteilungsleiter
+bereichsleiter
+gruppenleiter
+fachbereichsleiter
+hauptabteilungsleiter
+Geschäftsführer
+architect
+architekt
+softwarearchitekt
+it-architekt
+solution architect
+enterprise architect
+
+developer
+softwareentwickler
+anwendungsentwickler
+programmierer
+software engineer
+frontend
+backend
+full stack
+fullstack
+java
+python
+php
+.net
+c#
+c++
+react
+angular
+vue
+node
+nodejs
+ios
+android
+swift
+kotlin
+devops
+tester
+system administrator
+systemadministrator
+netzwerkadministrator
+network engineer
+cloud architect
+database administrator
+dba
+cyber security
+linux administrator
+windows administrator
+human resources
+recruiter
+talent acquisition
+personal
+personalwesen
+personalreferent
+personalberater
+personalsachbearbeiter
+personalmanager
+social media
+content manager
+accountant
+buchhalter
+finanz
+steuer
+tax
+auditor
+lawyer
+legal
+rechtsanwalt
+jurist
+Justiziar
+nurse
+pflege
+pflegefachkraft
+krankenpfleger
+arzt
+doctor
+physician
+medical
+medizinisch
+warehouse
+lager
+lagermitarbeiter
+manufacturing
+Fertigung
+electrician
+elektriker
+technician
+servicetechniker
+Installateur
+chef
+koch
+cook
+waiter
+kellner
+servicekraft
+cashier
+kassierer
+intern
+internship
+praktikum
+praktikant
+working student
+werkstudent
+student
+ausbildung
+auszubildender
+Minijob
+Duales
+Gebäuden
+Infrastruktur
+Facility
+CAD
+Elektroniker
+Fachmonteur
+Monteur
+event
+Krankenhauswesen
+Medizintechniker
+Property
+Sicherheitstechnik

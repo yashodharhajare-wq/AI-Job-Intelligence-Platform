@@ -1,0 +1,23 @@
+# Personal application data
+Applied job filders/
+Application_Tracker.xlsx
+
+# Database
+jobs.db
+
+# Browser profile
+browser_profile/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# old tools
+server.py
+main.py
+start_server.bat
+run_main.bat

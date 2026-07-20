@@ -1,0 +1,122 @@
+Job Automation Project - Reference Document
+
+Project Overview
+
+This project is a local AI-powered job automation system for Stepstone
+running on Windows.
+
+Overall workflow:
+
+Stepstone ↓ Scrape Jobs ↓ SQLite Database ↓ AI Filtering (Ollama) ↓
+Application Tracking ↓ Application Automation
+
+Current Project Structure
+
+Job_Automation_Project/ ├── automation/ │ └── step1_scrape_jobs.py ├──
+browser_profile/ ├── config.py └── jobs.db
+
+Chrome is launched using Playwright with a persistent Chrome profile:
+
+launch_persistent_context( user_data_dir=PROFILE_PATH, channel=“chrome”,
+headless=False )
+
+Current Status (Phase 1 Complete)
+
+The scraper is complete and considered the baseline version. Future work
+should extend it instead of rewriting it.
+
+Current features:
+
+-   Opens Chrome using Playwright
+-   Uses persistent browser profile
+-   Searches Stepstone through the search box
+-   Automatically applies “Newest First” sorting
+-   Navigates through multiple pages
+-   Removes recommendation widget
+-   Scrapes:
+    -   Job Title
+    -   Company
+    -   Location
+    -   Job Link
+-   Stores jobs in SQLite
+-   Prevents duplicates using INSERT OR IGNORE
+-   Stores page number
+-   Stores search title
+-   Resume support
+-   Retry logic
+-   Progress logging
+-   Elapsed time and ETA
+
+Database Schema
+
+Table: jobs
+
+-   id
+-   title
+-   company
+-   location
+-   link
+-   page
+-   search_title
+-   scraped_at
+-   applied
+-   ai_score
+-   ai_decision
+-   notes
+
+The schema is already prepared for AI filtering and application
+tracking.
+
+Next Phase (Phase 2)
+
+Implement AI filtering using Ollama.
+
+Desired workflow:
+
+SQLite ↓ Read one job ↓ Send job to Ollama ↓ Receive AI evaluation ↓
+Update SQLite
+
+For each job, the AI should generate:
+
+-   AI Score
+-   Decision:
+    -   Apply
+    -   Maybe
+    -   Reject
+-   Short explanation
+
+These values should populate:
+
+-   ai_score
+-   ai_decision
+-   notes
+
+Future Phases
+
+Phase 3 - Application tracker - Applied - Rejected - Interview - Offer -
+Archived
+
+Phase 4 - Automatic cover letter generation
+
+Phase 5 - Application automation
+
+Development Preferences
+
+-   Produce production-quality code rather than tutorials.
+-   Build features incrementally.
+-   Avoid rewriting working code.
+-   Keep the architecture modular and scalable.
+-   Explain important design decisions briefly.
+-   Preserve compatibility with the existing scraper.
+
+Existing Scraper
+
+The current implementation is contained in:
+
+automation/step1_scrape_jobs.py
+
+Use this as the foundation for all future work.
+
+When continuing this project, assume the Stepstone scraper is finished
+and focus on implementing AI filtering with Ollama using the existing
+SQLite database.
