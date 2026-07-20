@@ -8,7 +8,13 @@
 
 # The Problem
 
-When I finished my degree here in germany and started actively applying for jobs, I realized I was spending more time ** searching for a job** than actually applying.
+When I started applying for jobs after graduating in Germany, I expected the difficult part to be interviews.
+
+Instead, I found myself spending hours every day simply searching.
+
+The actual application often took less time than finding a suitable vacancy.
+
+That was frustrating because searching wasn't creating value—it was just consuming time.
 
 Every day looked almost identical.
 
@@ -32,11 +38,16 @@ As the number of applications grew, so did the time spent simply organizing them
 
 I wanted to spend my time improving my resume, preparing for interviews, and writing better applications—not filtering jobs, scrolling 50 pages, remembering whether I'd already looked at a particular vacancy.
 
-So I decided to automate the entire workflow.
+As an engineer, my first instinct wasn't to accept the repetitive process.
 
----
+If a task is repeated every day, follows the same pattern, and doesn't require creativity, it's usually a good candidate for automation.
+
+So instead of changing my routine, I built software to change it for me.
 
 # The Solution
+This application became my personal job-search assistant.
+
+It remembers what I've already seen, tracks every application, filters opportunities that match my interests, and lets me focus on making better applications instead of managing them.
 
 This project automatically opens chrome, logs into my account, collects jobs, stores them locally, filter them with exact keywords, keeps track of application status, and remembers my interaction with every job opportunity.
 
@@ -84,6 +95,14 @@ The biggest lesson from building this project wasn't web scraping.
 It was realizing that many hours are lost to repetitive tasks that computers are much better at handling.
 
 ---
+Results
+
+- Reduced daily job-search time from roughly 3 hours to 20 minutes.
+- Eliminated the need for manual Excel tracking.
+- Prevented reviewing the same postings repeatedly.
+- Centralized the entire application process in one place.
+- most Important - PEACE
+---
 
 # Looking Ahead
 
@@ -109,9 +128,7 @@ Future AI capabilities include:
 
 - Resume-job matching
 - AI relevance scoring
-- Cover letter generation
 - Company insights
-- Interview preparation
 - Skill gap analysis
 - Job summarization
 - Intelligent recommendations
