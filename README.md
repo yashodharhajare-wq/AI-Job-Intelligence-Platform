@@ -1,6 +1,6 @@
 # Career Intelligence Platform
 
-> **A desktop application born out of frustration with repetitive job searching.**
+> **A desktop application born out of need.**
 >
 > Instead of spending hours searching, filtering, tracking, and revisiting the same jobs, I wanted software that would do the repetitive work for me so I could focus on what actually matters—preparing good applications and interviews.
 
