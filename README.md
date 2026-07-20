@@ -4,7 +4,12 @@
 >
 > Instead of spending hours searching, filtering, tracking, and revisiting the same jobs, I wanted software that would do the repetitive work for me so I could focus on what actually matters—preparing good applications and interviews.
 
+
+<img width="1911" height="1006" alt="image" src="https://github.com/user-attachments/assets/0437b6c9-d20c-4cba-95d8-f0ad7f40748b" />
+
 ---
+
+
 
 # The Problem
 
