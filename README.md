@@ -8,15 +8,16 @@
 
 # The Problem
 
-When I started actively applying for jobs, I realized I was spending more time **managing my job search** than actually applying.
+When I finished my degree here in germany and started actively applying for jobs, I realized I was spending more time ** searching for a job** than actually applying.
 
 Every day looked almost identical.
 
-- Open StepStone.
+- Open StepStone/ job platforms.
 - Search using the same keywords.
 - Apply filters again.
-- Still Stepstone shows many unrelated jobs (praktikum, Monteur, buchhalter etc)
-- Scroll through hundreds of listings from multiple pages.
+- platform shows 80% unrelated jobs (with keywords like praktikum, Monteur, buchhalter etc)
+- if use different and strict keywords, fear of loosing genuine job.
+- then scroll through hundreds of listings from multiple pages.
 - filter unrelated jobs
 - Wonder whether I had already seen a particular job.
 - Check my Excel sheet to see if I had already applied.
@@ -37,7 +38,7 @@ So I decided to automate the entire workflow.
 
 # The Solution
 
-This project automatically collects jobs, stores them locally, filter them with exact keywords, keeps track of application status, and remembers my interaction with every opportunity.
+This project automatically opens chrome, logs into my account, collects jobs, stores them locally, filter them with exact keywords, keeps track of application status, and remembers my interaction with every job opportunity.
 
 Instead of asking:
 
